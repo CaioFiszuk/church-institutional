@@ -1,0 +1,65 @@
+.hero {
+    background-image: url("../assets/images/church.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.hero__main-text {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    line-height: 45px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.hero__paragraph {
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+.hero__link {
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero__link:hover {
+    color: blue;
+}
+
+.hero__link:active {
+    color: red;
+}
+
+.hero__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: 95%;
+}
+
+.hero__icon {
+    color: white;
+    background-color: #25D366;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+}

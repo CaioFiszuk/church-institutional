@@ -1,0 +1,20 @@
+.services {
+    padding: 20px 0;
+}
+
+.services__main-text {
+    text-align: center;
+    margin: 20px auto 30px;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.services__paragraph {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.p1 {
+    margin: 10px auto;
+}

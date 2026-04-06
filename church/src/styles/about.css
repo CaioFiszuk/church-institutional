@@ -1,0 +1,26 @@
+.about {
+    background-image: url("../assets/images/inside.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+.about__title {
+   color: white;
+   text-shadow: 5px 5px 5px black;
+   text-align: center;
+   font-size: 40px;
+   line-height: 45px;
+   margin: 60px 0 30px;
+}
+
+.about__paragraph {
+  color: white;
+   text-shadow: 5px 5px 5px black;
+   text-align: center;
+   font-size: 20px;
+   line-height: 25px;
+   margin: 10px 0 30px;
+}

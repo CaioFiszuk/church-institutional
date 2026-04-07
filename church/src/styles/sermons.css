@@ -1,0 +1,41 @@
+.sermons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.sermons__title {
+   text-align: center;
+   font-size: 40px;
+   line-height: 45px;
+   margin: 20px 0 30px;
+}
+
+.sermons__box {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+}
+
+.sermons__media {
+    width: 400px;
+    height: 300px;
+}
+
+.sermons__button {
+    margin: 30px auto 0;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(26, 26, 222);
+    color: white;
+    padding: 20px;
+    width: 30%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sermons__button:hover {
+    background-color: rgb(14, 14, 113);
+}

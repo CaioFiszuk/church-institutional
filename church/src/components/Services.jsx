@@ -2,7 +2,7 @@ function Services() {
 
   return (
     <section className="services">
-      <h2 className="services__main-text">Programação</h2>
+      <h2 className="services__title">Programação</h2>
 
       <p className="services__paragraph p1"><strong>Domingo</strong></p>
       <p className="services__paragraph">&rarr; Escola Dominical - 09h</p>

@@ -1,0 +1,30 @@
+.contact {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact__title {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.contact__paragraph {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.contact__icon {
+    color: white;
+    background-color: #25D366;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 10px;
+}

@@ -4,6 +4,7 @@ import Services from "./Services";
 import About from "./About";
 import Sermons from "./Sermons";
 import Location from "./Location";
+import Contact from "./Contact";
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       <Sermons />
 
       <Location />
+
+      <Contact />
     </section>
   )
 }

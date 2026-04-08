@@ -1,0 +1,16 @@
+.footer {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(26, 26, 222);
+    color: white;
+}
+
+.footer__title {
+   text-align: center;
+   font-size: 40px;
+   line-height: 45px;
+   margin: 20px 0;
+}

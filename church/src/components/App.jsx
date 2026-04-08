@@ -5,6 +5,7 @@ import About from "./About";
 import Sermons from "./Sermons";
 import Location from "./Location";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
       <Location />
 
       <Contact />
+
+      <Footer />
     </section>
   )
 }

@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 function Hero() {
 
   return (
-    <main className="hero">
+    <main className="hero" id="hero">
         <h1 className="hero__main-text">Uma igreja que vive a Palavra e ama pessoas</h1>
 
         <p className="hero__paragraph">Domingos às 18h | Quartas às 20h</p>

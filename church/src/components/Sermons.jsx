@@ -5,7 +5,7 @@ import sermon3 from "../assets/images/sermon3.png";
 function Sermons() {
 
   return (
-    <section className="sermons">
+    <section className="sermons" id="sermons">
       <h2 className="sermons__title">Últimas mensagens</h2>
 
       <section className="sermons__box">

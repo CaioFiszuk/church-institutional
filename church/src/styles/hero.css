@@ -51,8 +51,10 @@
     justify-content: space-around;
     position: absolute;
     bottom: 40px;
-    left: 40px;
-    width: 95%;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .hero__icon {
@@ -63,4 +65,12 @@
     border-radius: 100%;
     cursor: pointer;
     padding: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 765px) {
+
+  .hero {
+      padding: 0 20px;
+   }
+
 }
